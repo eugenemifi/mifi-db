@@ -7,7 +7,7 @@
 
 ## 1. Структура базы данных
 
-![MIFI_DB_HT.png](assets%2FMIFI_DB_HT.png)
+![MIFI_DB_HT.png](../assets/MIFI_DB_HT_ORG.png)
 
 Связи:
 
@@ -170,7 +170,7 @@ EmployeeID, EmployeeName, ManagerID, DepartmentName, RoleName
 ## 2.3 Задача 3
 ### Условие
 ```text
-Найти всех сотрудников, которые занимают роль «Менеджер» и имеют подчинённых (на любом уровне вложенности; то есть «число подчинённых» > 0). Вывести:
+Найти всех сотрудников, которые занимают роль «Менеджер» и имеют подчинённых (на любом уровне вложенности; то есть «число подчинённых» > 0). Вывести:
 EmployeeID, EmployeeName, ManagerID, DepartmentName, RoleName, Projects (через запятую), Tasks (через запятую),
 TotalSubordinates — общее количество всех уровней подчинённых.
 Использовать WITH RECURSIVE.
